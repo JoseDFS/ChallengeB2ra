@@ -87,13 +87,6 @@ fun EarthquakeListScreen(
         Text(text = "Fecha Inicio: $startDate")
         Text(text = "Fecha Término: $endDate")
         Spacer(modifier = Modifier.height(16.dp))
-        Button(
-            onClick = { earthquakes.refresh() },
-            modifier = Modifier.fillMaxWidth()
-        ) {
-            Text("Filtrar")
-        }
-        Spacer(modifier = Modifier.height(16.dp))
         LazyColumn {
             items(earthquakes) { earthquake ->
                 earthquake?.let {
