@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "80935087014",
+    "project_id": "challengeb2ra",
+    "storage_bucket": "challengeb2ra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80935087014:android:65043e7675e46da368fd67",
+        "android_client_info": {
+          "package_name": "com.example.challengeb2ra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9mrVf6z3Du3waoTB4ZyjIPC8j35CzxaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
